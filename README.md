@@ -17,21 +17,21 @@
 | 프로젝트 | 핵심 | 검증된 결과 |
 | --- | --- | --- |
 | [KBO 승부 예측](https://github.com/KTH-0318/kbo_win_prediction)  | 크롤링 → 파생변수 설계 → 포아송 회귀 | 순위 6/10 적중 · 우승/준우승 예측 · ρ≈0.87 |
-| [NBA 플레이오프 예측](https://github.com/KTH-0318/nba-playoff-prediction) | XGBoost 득점 예측 + 몬테카를로 1,000회 | 우승팀(OKC)·파이널 스코어 4-3까지 적중 |
+| [NBA 플레이오프 예측](https://github.com/KTH-0318/nba_win_prediction) | XGBoost 득점 예측 + 몬테카를로 1,000회 | 우승팀(OKC)·파이널 스코어 4-3까지 적중 |
 
 ## 🗺️ Spatial Analysis 
 
 | 프로젝트 | 문제 유형 | 접근 |
 | --- | --- | --- |
-| [서울 대중교통 취약지역](https://github.com/KTH-0318/seoul-transit-accessibility) | 접근성 진단 | Tobler 경사 네트워크(21만 노드) + Dijkstra + 2SFCA + 사분면 분석 |
-| [천안 쿨링포그 입지](https://github.com/KTH-0318/cheonan-coolingfog-priority) | 정답 없는 입지 선정 | 프록시 도시(대전) 역추적 → 행정동 → 150m 헥스 2단계 줌인 |
-| [대전 트램 정거장 타당성](https://github.com/KTH-0318/daejeon-tram-station-analysis) | 다기준 의사결정 | 네트워크 중심성 → KMeans → 시나리오 → TOPSIS → GIS 등급화 |
+| [서울 대중교통 취약지역](https://github.com/KTH-0318/Seoul_transit_accessibility) | 접근성 진단 | Tobler 경사 네트워크(21만 노드) + Dijkstra + 2SFCA + 사분면 분석 |
+| [천안 쿨링포그 입지](https://github.com/KTH-0318/Cheonan_coolingfog-priority) | 정답 없는 입지 선정 | 프록시 도시(대전) 역추적 → 행정동 → 150m 헥스 2단계 줌인 |
+| [대전 트램 정거장 타당성](https://github.com/KTH-0318/daejeon_tram_station_analysis) | 다기준 의사결정 | 네트워크 중심성 → KMeans → 시나리오 → TOPSIS → GIS 등급화 |
 
 ## 🔧 System Building
 
 | 프로젝트 | 핵심 |
 | --- | --- |
-| [실시간 열람실 모니터링](https://github.com/KTH-0318/reading-room-monitoring)  | 라즈베리파이 + YOLOv8n + 환경센서 → MySQL → 웹 대시보드. 얼굴 대신 물건 탐지로 프라이버시 배려, 실제 72석 배포 |
+| [실시간 열람실 모니터링](https://github.com/KTH-0318/reading_room_monitoring)  | 라즈베리파이 + YOLOv8n + 환경센서 → MySQL → 웹 대시보드. 얼굴 대신 물건 탐지로 프라이버시 배려, 실제 72석 배포 |
 
 <details>
 <summary><b>📂 그 외 프로젝트 (7) — 펼쳐보기</b></summary>
@@ -40,13 +40,13 @@
 
 | 프로젝트 | 한 줄 요약 |
 | --- | --- |
-| [영천시 교통·복지 사각지대](https://github.com/KTH-0318/yeongcheon-blindspot-analysis) | 복합 고립지수 설계 + 분위 4등급화 → 정책 우선순위 |
+| [영천시 교통·복지 사각지대](https://github.com/KTH-0318/Yeongcheon_blindspot_analysis) | 복합 고립지수 설계 + 분위 4등급화 → 정책 우선순위 |
 | [날씨 기반 119 신고 예측](https://github.com/KTH-0318/weather-119-call-prediction) | 3종 앙상블 + TimeSeriesSplit + 자기회귀 순차 예측 (RMSE 5.7) |
-| [대전 지하철 수요 예측](https://github.com/KTH-0318/daejeon-subway-demand-forecast) | 스마트카드 + 400m 버퍼 공간변수 결합 → 역별·시간대별 예측 |
-| [보험료 기반 Risk 추정](https://github.com/KTH-0318/insurance-risk-pricing) | 순보험료 → 요율요소 → 상대도·Off-Balancing → 계산기 구현 |
-| [딥페이크 AI 탐지](https://github.com/KTH-0318/deepfake-detection) | video 단위 분할(누수 방지) + EfficientNet 앙상블 + Grad-CAM |
-| [1인 가구 배달앱 소비 분석](https://github.com/KTH-0318/delivery-app-regression) | 설문 직접 설계(61명) + 회귀 가설검정 + 모형 진단 |
-| [손상 보도블럭 탐지](https://github.com/KTH-0318/sidewalk-damage-detection) | YOLO11n · 1,018장 직접 라벨링 · 보행 보조 활용안 |
+| [대전 지하철 수요 예측](https://github.com/KTH-0318/Daejeon_subway_demand_forecast) | 스마트카드 + 400m 버퍼 공간변수 결합 → 역별·시간대별 예측 |
+| [보험료 기반 Risk 추정](https://github.com/KTH-0318/insurance_risk_pricing) | 순보험료 → 요율요소 → 상대도·Off-Balancing → 계산기 구현 |
+| [딥페이크 AI 탐지](https://github.com/KTH-0318/deepfake_dectection) | video 단위 분할(누수 방지) + EfficientNet 앙상블 + Grad-CAM |
+| [1인 가구 배달앱 소비 분석](https://github.com/KTH-0318/delivery_app_regression) | 설문 직접 설계(61명) + 회귀 가설검정 + 모형 진단 |
+| [손상 보도블럭 탐지](https://github.com/KTH-0318/sidewalk_damage_dectection) | YOLO11n · 1,018장 직접 라벨링 · 보행 보조 활용안 |
 
 </details>
 
