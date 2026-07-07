@@ -8,7 +8,7 @@
 
 🎓 한남대학교 빅데이터응용학과 (2023.03 ~ )
 
-📌 **전체 포트폴리오 (STAR 상세 페이지) → [[Notion](노션_메인_페이지_링크)**](https://app.notion.com/p/e6783f9aaedb8289bbbb016f91607fa9)
+📌 **전체 포트폴리오 (STAR 상세 페이지) → (https://app.notion.com/p/e6783f9aaedb8289bbbb016f91607fa9)
 
 ---
 
