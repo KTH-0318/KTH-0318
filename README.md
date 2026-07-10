@@ -62,7 +62,7 @@
 | 데이터 수집 | Selenium · BeautifulSoup |
 | 분석·모델링 | scikit-learn · XGBoost · LightGBM · CatBoost · PyTorch · Ultralytics YOLO · OpenCV · statsmodels · K-Means/PCA |
 | 공간 분석 | QGIS ⭐⭐⭐ · GeoPandas · Folium |
-| 환경·도구 | VS Code · R Studio · Git/GitHub · MySQL · Excel · Notion |
+| 환경·도구 | VS Code · R Studio · Git/GitHub · MySQL · Excel · Notion · MobaXTerm |
 
 ## 🎖️ Awards & Certification
 
