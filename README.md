@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32555100/README.md)
 # 안녕하세요, 김태형입니다 
 
 ### 스포츠 데이터 분석가를 지향하는, 스마트시티 문제를 공간 분석으로 풀어온 데이터 분석가
