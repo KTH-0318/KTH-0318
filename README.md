@@ -16,7 +16,7 @@
 
 | 프로젝트 | 핵심 | 검증된 결과 |
 | --- | --- | --- |
-| [KBO 승부 예측](https://github.com/KTH-0318/kbo_win_prediction)  | 크롤링 → 파생변수 설계 → 포아송 회귀 | 순위 6/10 적중 · 우승/준우승 예측 · ρ≈0.87 |
+| [KBO 정규시즌 순위 예측](https://github.com/KTH-0318/kbo_win_prediction)  | 크롤링 → 파생변수 설계 → 포아송 회귀 | 순위 6/10 적중 · 우승/준우승 예측 · ρ≈0.87 |
 | [NBA 플레이오프 예측](https://github.com/KTH-0318/nba_win_prediction) | XGBoost 득점 예측 + 몬테카를로 1,000회 | 우승팀(OKC)·파이널 스코어 4-3까지 적중 |
 
 ## Smart City × Spatial Analysis 
@@ -45,9 +45,9 @@
 | [날씨 기반 119 신고 예측](https://github.com/KTH-0318/weather-119-call-prediction) | 3종 앙상블 + TimeSeriesSplit + 자기회귀 순차 예측 (RMSE 5.7) |
 | [대전 지하철 수요 예측](https://github.com/KTH-0318/Daejeon_subway_demand_forecast) | 스마트카드 + 400m 버퍼 공간변수 결합 → 역별·시간대별 예측 |
 | [보험료 기반 Risk 추정](https://github.com/KTH-0318/insurance_risk_pricing) | 순보험료 → 요율요소 → 상대도·Off-Balancing → 계산기 구현 |
-| [딥페이크 AI 탐지](https://github.com/KTH-0318/deepfake_dectection) | video 단위 분할(누수 방지) + EfficientNet 앙상블 + Grad-CAM |
+| [딥페이크 AI 탐지](https://github.com/KTH-0318/deepfake_detection) | video 단위 분할(누수 방지) + EfficientNet 앙상블 + Grad-CAM |
 | [1인 가구 배달앱 소비 분석](https://github.com/KTH-0318/delivery_app_regression) | 설문 직접 설계(61명) + 회귀 가설검정 + 모형 진단 |
-| [손상 보도블럭 탐지](https://github.com/KTH-0318/sidewalk_damage_dectection) | YOLO11n · 1,018장 직접 라벨링 · 보행 보조 활용안 |
+| [손상 보도블록 탐지](https://github.com/KTH-0318/sidewalk_damage_detection) | YOLO11n · 1,018장 직접 라벨링 · 보행 보조 활용안 |
 
 </details>
 
